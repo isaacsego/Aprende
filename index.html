@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Medidor de PPM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Medidor de Palabras por Minuto</h1>
+
+    <p>Selecciona el grado escolar y presiona el botón para iniciar la grabación.</p>
+
+    <select id="grado">
+        <option value="1">Primer Grado</option>
+        <option value="2">Segundo Grado</option>
+        <option value="3">Tercer Grado</option>
+        <option value="4">Cuarto Grado</option>
+        <option value="5">Quinto Grado</option>
+        <option value="6">Sexto Grado</option>
+    </select>
+
+    <button id="btnGrabar">Iniciar Grabación</button>
+    <div id="resultados">
+        <div id="transcripcion"></div>
+        <div id="metricas"></div>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="speech-recognition.js"></script>
+</body>
+</html>
