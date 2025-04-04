@@ -1,5 +1,5 @@
 #definir una funcion para contar las palabras de un texto
-
+#tratar de no hacer uso los archivos dentro de esta Carpeta
 
 texto = ("Cuando un animal o una planta deja de vivir, usualmente no queda rastro de él, "
          "ya sea por otro animal que lo come o por pudrirse en el suelo o en el agua. "
