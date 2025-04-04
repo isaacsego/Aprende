@@ -10,7 +10,9 @@
 <body>
     <h1>Medidor de Palabras por Minuto</h1>
 
-    <p>Selecciona el grado escolar y presiona el botón para iniciar la grabación.</p>
+    <p>Selecciona el grado y presiona "Iniciar Grabación" para comenzar.</p>
+
+    <input type="text" id="nombre" placeholder="Tu nombre" required>
 
     <select id="grado">
         <option value="1">Primer Grado</option>
@@ -21,7 +23,11 @@
         <option value="6">Sexto Grado</option>
     </select>
 
-    <button id="btnGrabar">Iniciar Grabación</button>
+    <div id="rubrica"></div>
+    <div id="cronometro">01:00</div>
+
+    <button id="btnGrabar">Iniciar Grabacion</button>
+
     <div id="resultados">
         <div id="transcripcion"></div>
         <div id="metricas"></div>

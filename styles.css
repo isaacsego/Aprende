@@ -1,44 +1,58 @@
 body {
-    font-family: Arial;
-    max-width: 600px;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
     margin: 20px auto;
-    padding: 0 20px;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+input, select {
+    padding: 8px;
+    margin: 5px 0;
+    width: 200px;
+    display: block;
 }
 
 button {
-    padding: 10px;
-    margin: 5px;
-    cursor: pointer;
+    padding: 10px 20px;
     background-color: #4CAF50;
     color: white;
     border: none;
     border-radius: 4px;
-}
-
-select {
-    padding: 8px;
-    margin: 5px;
-}
-
-#resultados {
-    margin-top: 20px;
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    background-color: #f9f9f9;
-}
-
-#transcripcion {
+    cursor: pointer;
     margin: 10px 0;
-    color: #666;
-    min-height: 60px;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 10px;
-    font-style: italic;
 }
 
-#metricas {
-    margin-top: 10px;
+button:hover {
+    background-color: #45a049;
+}
+
+#rubrica {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+#cronometro {
+    font-size: 24px;
+    color: #2c3e50;
     font-weight: bold;
 }
 
+#transcripcion {
+    min-height: 100px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+}
+#transcripcion .intermedio {
+    color: #888;
+    font-style: italic; /* Agregar esta línea */
+}
+
+#metricas {
+    padding: 15px;
+    background-color: #e8f4ff;
+    border-radius: 5px;
+}
